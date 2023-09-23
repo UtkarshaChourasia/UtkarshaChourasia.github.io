@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkarsha Chourasia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a class="name-logo" href="#">Utkarsha Chourasia</a>
+        <ul class="socials">
+            <a class="social-icon" target="_blank" href="mailto:uc2012@nyu.edu?subject=Let's%20connect">
+                <img src="/assets/images/maillogo.svg" alt="mail">
+            </a>
+            <a class="social-icon" target="_blank" href="https://github.com/UtkarshaChourasia">
+                <img src="/assets/images/githublogo.svg" alt="github">
+            </a>
+            <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/utkarsha-chourasia/">
+                <img src="/assets/images/linkedinlogo.svg" alt="mail">
+            </a>
+            <a class="social-icon" target="_blank" href="https://www.instagram.com/raghvie/">
+                <img src="/assets/images/instagramlogo.svg" alt="mail">
+            </a>
+            <a class="download-button" target="_blank" href="assets/images/resume.pdf"><img class="download-icon" src="/assets/images/downloadicon.svg" alt=""> Resume</a>
+        </ul>
+    </header>
+    <main>
+        <section id="intro" class="hero-section">
+            <h2><span class="thin-text">HEY THERE!<br>
+                I'm </span>UTKARSHA CHOURASIA</h2>
+            <img class="hero-photo" src="/assets/utk_photo.jpeg" alt="utkarsha-chourasia">
+            <p class="intro">Aspiring Product Manager, from a small town in India to the bustling streets of New York City. Recent NYU grad with a passion to enhance people's lives through innovation , strategy and data driven solutions.</p>
+        </section>
+        <section id="bleedbold" class="bleedbold">
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1"></div>
+                    <div class="swiper-slide slide2"></div>
+                    <div class="swiper-slide slide3"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <p><b>BleedBOLD</b> - Founded a small social initiative dedicated to eradicating the stigma surrounding menstrual hygiene while ensuring underprivileged women have access to sustainable menstrual products and promoting awareness about menstrual health through means of Technology.</p>
+        </section>
+        <section id="nyutandon" class="nyutandon">
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1"></div>
+                    <div class="swiper-slide slide2"></div>
+                    <div class="swiper-slide slide3"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <p>Elected as President in NYU's Graduate Student Council Election, securing the trust of over 5,000 students. Served as a liaison between school executives and students, fostering collaboration and implementing solutions, all while organising numerous workshops and events to enrich the student experience at NYU.</p>
+        </section>
+    </main>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+<script>
+    $(document).ready(function() {
+// Swiper: Slider
+    new Swiper('.swiper-container', {
+        loop: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 20,
+        pagination: {
+    el: '.swiper-pagination',
+  },
+    });
+});
+
+</script>
+</html>
