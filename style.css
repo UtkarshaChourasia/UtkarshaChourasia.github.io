@@ -93,38 +93,38 @@ section{
 }
 
 .bleedbold .slide1{
-    background-image: url(/assets/images/bleedbold1.jpeg);
+    background-image: url(assets/images/bleedbold1.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .bleedbold .slide2{
-    background-image: url(/assets/images/bleedbold2.jpeg);
+    background-image: url(assets/images/bleedbold2.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
 }
 .bleedbold .slide3{
-    background-image: url(/assets/images/bleedbold3.jpeg);
+    background-image: url(assets/images/bleedbold3.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
 }
 
 .nyutandon .slide1{
-    background-image: url(/assets/images/nyu1.png);
+    background-image: url(assets/images/nyu1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .nyutandon .slide2{
-    background-image: url(/assets/images/nyu2.png);
+    background-image: url(assets/images/nyu2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
 }
 .nyutandon .slide3{
-    background-image: url(/assets/images/nyu3.png);
+    background-image: url(assets/images/nyu3.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
