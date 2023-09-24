@@ -3,13 +3,22 @@
 
 body{
     background: #141414;
-    color:#fff;
+    background-image: url(assets/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:#dcd5ec;
     padding: 0;
     margin: 0;
     font-family: "Inter", sans-serif;
     line-height: 2;
     font-weight: 300;
 }
+img{
+    max-width: 100%;
+}
+
 
 header{
     display: flex;
@@ -19,6 +28,16 @@ header{
     align-items: center;
     flex-wrap: wrap;
     gap:16px;
+    border-radius: 24px;
+    backdrop-filter: blur(18px);
+    position: fixed;
+    top: 8px;
+    right: 16px;
+    left: 16px;
+    z-index: 100;
+}
+main{
+    margin-top: 140px;
 }
 .download-button{
     display: flex;
@@ -33,11 +52,12 @@ header{
 }
 .download-icon{
     width: 20px;
+    height: 20px;
 }
 .name-logo{
     font-size: 20px;
     text-decoration: none;
-    color: white;
+    color: #dcd5ec;
     font-weight: bold;
 }
 .socials{
@@ -53,8 +73,12 @@ header{
     display: flex;
 }
 .social-icon>img{
-    height:40px;
-    width:40px;
+    height:32px;
+    width:32px;
+}
+.social-icon>img:hover{
+    transform: scale(1.25);
+    transition: ease-in-out;
 }
 section{
     max-width: 650px;
@@ -81,6 +105,60 @@ section{
     height: auto;
     border-radius: 500vw;
 }
+
+/*flip photo css start*/
+
+.flip-container {
+    -webkit-perspective: 1000;
+    background: transparent;
+}
+/* flip the picture when hover */
+
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+    -webkit-transform: rotateY(180deg);
+}
+
+.flip-container,
+.front,
+.back,
+.flip-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 150vw;
+}
+/* flip speed */
+
+.flipper {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    position: relative;
+}
+/* hide back  during flip */
+
+.front,
+.back {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* front placed above back */
+
+.front {
+    z-index: 2;
+}
+/* back, initially hidden */
+
+.back {
+    -webkit-transform: rotateY(180deg);
+    background: rgb(218, 138, 138);
+}
+
+/*flip photo css end*/
+
+
 .thin-text{
     font-weight: 200;
 }
@@ -130,7 +208,15 @@ section{
     background-repeat: no-repeat
 }
 
+section.projects p, section.projects h2{
+    margin: 0;
+}
 
+footer{
+    text-align: center;
+    padding: 8px;
+    background: #141414;
+}
 
 @media screen and (max-width: 768px) {
     .social-icon>img{
@@ -138,6 +224,6 @@ section{
     width:28px;
     }
     header{
-        justify-content: center;
+        align-items: center;
     }
 }

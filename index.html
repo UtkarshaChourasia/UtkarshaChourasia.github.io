@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Utkarsha Chourasia</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,30 +25,38 @@
             <a class="social-icon" target="_blank" href="https://www.instagram.com/raghvie/">
                 <img src="assets/images/instagramlogo.svg" alt="mail">
             </a>
-            <a class="download-button" target="_blank" href="assets/images/resume.pdf"><img class="download-icon" src="/assets/images/downloadicon.svg" alt=""> Resume</a>
+            <a class="download-button" target="_blank" href="assets/images/resume.pdf"><img class="download-icon" src="assets/images/downloadicon.svg" alt=""> Resume</a>
         </ul>
     </header>
     <main>
         <section id="intro" class="hero-section">
             <h2><span class="thin-text">HEY THERE!<br>
                 I'm </span>UTKARSHA CHOURASIA</h2>
-            <img class="hero-photo" src="assets/utk_photo.jpeg" alt="utkarsha-chourasia">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div clas="front">
+                            <img src="assets/utk_photo.jpeg" alt="utkarsha-chourasia">
+                
+                        </div>
+                        <div class="back">
+                            <img src="assets/utk_photo2.png" alt="utkarsha-chourasia">
+                        </div>
+                
+                    </div>
+                </div>
+            <!-- <img class="hero-photo" src="assets/utk_photo.jpeg" alt="utkarsha-chourasia"> -->
             <p class="intro">Aspiring Product Manager, from a small town in India to the bustling streets of New York City. Recent NYU grad with a passion to enhance people's lives through innovation , strategy and data driven solutions.</p>
         </section>
-        <section id="bleedbold" class="bleedbold">
-            <div class="swiper-container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide slide1"></div>
-                    <div class="swiper-slide slide2"></div>
-                    <div class="swiper-slide slide3"></div>
-                </div>
-                <div class="swiper-pagination"></div>
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-            <p><b>BleedBOLD</b> - Founded a small social initiative dedicated to eradicating the stigma surrounding menstrual hygiene while ensuring underprivileged women have access to sustainable menstrual products and promoting awareness about menstrual health through means of Technology.</p>
+        <section id="prose" class="projects prose">
+            <h2>Capstone : Operation Improvement, D2C facility</h2>
+            <p>2023 Jan - 2023 May</p>
+            <p style="margin-bottom: 24px;"><b>Operation Analyst</b><br></p>
+            <p style="margin-bottom: 16px;">At the Prose S2C facility, we initiated operational enhancements. We performed an in-depth assessment of production bottlenecks, pinpointed areas of inefficiency, and proposed specific enhancements. Our strategy involved a gradual implementation plan that encompassed streamlining packaging processes, bolstering workforce numbers, and minimizing wait times in crucial phases. To ensure the sustainability of these enhancements, we introduced control-chart analysis for monitoring worker availability and productivity.</p>
+            <img src="assets/images/projectimg1.png" alt="Prose Image 1">
+            <img src="assets/images/projectimg2.png" alt="Prose Image 2">
+            <img src="assets/images/projectimg3.png" alt="Prose Image 3">
+            <img src="assets/images/projectimg4.png" alt="Prose Image 4">
+            <img src="assets/images/projectimg5.png" alt="Prose Image 5">
         </section>
         <section id="nyutandon" class="nyutandon">
             <div class="swiper-container">
@@ -64,7 +73,33 @@
             </div>
             <p>Elected as President in NYU's Graduate Student Council Election, securing the trust of over 5,000 students. Served as a liaison between school executives and students, fostering collaboration and implementing solutions, all while organising numerous workshops and events to enrich the student experience at NYU.</p>
         </section>
+        <section id="ta" class="projects ta">
+            <h2>NYU Tandon School of Engineering</h2>
+            <p>2021 - 2023</p>
+            <p style="margin-bottom: 24px;"><b>Teacher Assistant</b>, Software Engineering<br></p>
+            <p style="margin-bottom: 16px;">Spearheaded the advancement of over 150 students by actively assisting, evaluating, and mentoring them throughout their software engineering coursework. Concurrently, I pioneered workshops and consistently conducted office hours, amplifying their mastery of the subject and nurturing their professional growth. </p>
+            <img src="assets/images/ta1.jpeg" alt="NYU Teacher Assistant">
+            <img src="assets/images/ta2.png" alt="NYU Teacher Assistant">
+        </section>
+        <section id="bleedbold" class="bleedbold">
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1"></div>
+                    <div class="swiper-slide slide2"></div>
+                    <div class="swiper-slide slide3"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <p><b>BleedBOLD</b> - Founded a small social initiative dedicated to eradicating the stigma surrounding menstrual hygiene while ensuring underprivileged women have access to sustainable menstrual products and promoting awareness about menstrual health through means of Technology.</p>
+        </section>
     </main>
+    <footer>
+        <p>made with &hearts; by Utkarsha</p>
+    </footer>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
