@@ -29,6 +29,7 @@ header{
     flex-wrap: wrap;
     gap:16px;
     border-radius: 24px;
+    -webkit-backdrop-filter:blur(18px);
     backdrop-filter: blur(18px);
     position: fixed;
     top: 8px;
@@ -167,7 +168,7 @@ section{
     aspect-ratio: 16/9;
     object-fit: cover;
     height: auto;
-    background-color: red;
+    background-color: gray;
 }
 
 .bleedbold .slide1{
@@ -264,6 +265,7 @@ footer{
     text-align: center;
     padding: 8px;
     background: #141414;
+    color: rgba(255,255,255,0.25);
 }
 
 @media screen and (max-width: 768px) {
