@@ -208,6 +208,54 @@ section{
     background-repeat: no-repeat
 }
 
+.prose .slide1{
+    background-image: url(assets/images/projectimg1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.prose .slide2{
+    background-image: url(assets/images/projectimg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.prose .slide3{
+    background-image: url(assets/images/projectimg3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.prose .slide4{
+    background-image: url(assets/images/projectimg4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.prose .slide5{
+    background-image: url(assets/images/projectimg5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.prose .swiper-slide {
+    background-color:#fff;
+    background-size:contain;    
+}
+
+.ta .slide1{
+    background-image: url("assets/images/ta1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.ta .slide2{
+    background-image: url("assets/images/ta2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
 section.projects p, section.projects h2{
     margin: 0;
 }
